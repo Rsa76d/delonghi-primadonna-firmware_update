@@ -1,8 +1,15 @@
 {
  "schema": 1,
  "device": "ESP32-C6 DeLonghi PrimaDonna MITM",
- "latest": "v4.60",
+ "latest": "v4.63",
  "firmwares": [
+  {
+   "version": "v4.63",
+   "file": "bin/delonghi_c6_mitm_v463_githubdns.bin",
+   "size": 1851312,
+   "sha256": "53e535f1a73100e4a8df60ba460b1a046cd9e6729c5a835c10197cc23cd943a0",
+   "note": "githubdns"
+  },
   {
    "version": "v4.60",
    "file": "bin/delonghi_c6_mitm_v460_flashboost.bin",
