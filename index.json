@@ -1,0 +1,308 @@
+{
+ "schema": 1,
+ "device": "ESP32-C6 DeLonghi PrimaDonna MITM",
+ "latest": "v4.60",
+ "firmwares": [
+  {
+   "version": "v4.60",
+   "file": "bin/delonghi_c6_mitm_v460_flashboost.bin",
+   "size": 1643808,
+   "sha256": "79c94d5622eb086c3ecdbcd81981af0d6cf09e4af28fddce4f334a0e9efa564a",
+   "note": "flashboost"
+  },
+  {
+   "version": "v4.59",
+   "file": "bin/delonghi_c6_mitm_v459_unknownfallback.bin",
+   "size": 1642400,
+   "sha256": "4766c8eea0ebb667d9fb7aa70165dee32fb914fdb1c831c76871c077f2451b24",
+   "note": "unknownfallback"
+  },
+  {
+   "version": "v4.58",
+   "file": "bin/delonghi_c6_mitm_v458_gaps.bin",
+   "size": 1608576,
+   "sha256": "8404b6e08564e3cd2609567a847e72ad3d2b5463779f95dc1ef33797c66c2e7f",
+   "note": "gaps"
+  },
+  {
+   "version": "v4.57",
+   "file": "bin/delonghi_c6_mitm_v457_ledpatterns.bin",
+   "size": 1608544,
+   "sha256": "089b501df602599516785df8ab8a10cff5c1d413229d485ae1219fa08af43c65",
+   "note": "ledpatterns"
+  },
+  {
+   "version": "v4.56",
+   "file": "bin/delonghi_c6_mitm_v456_seconds.bin",
+   "size": 1608496,
+   "sha256": "4bf961cedb3b0513c292199120d409453179c073578a460e1819ee651360bfbf",
+   "note": "seconds"
+  },
+  {
+   "version": "v4.55",
+   "file": "bin/delonghi_c6_mitm_v455_reorder.bin",
+   "size": 1608016,
+   "sha256": "2f20d4316a882f818017ae7004537b6330ee7d6317a33e0bbaa8b3a872b0b17f",
+   "note": "reorder"
+  },
+  {
+   "version": "v4.54",
+   "file": "bin/delonghi_c6_mitm_v454_mqttdiscovery.bin",
+   "size": 1608032,
+   "sha256": "f7d7d3e10eec61b5aee9be7bb8c9ca15be419872d50ba1cf4c98eaf36b578d1b",
+   "note": "mqttdiscovery"
+  },
+  {
+   "version": "v4.53",
+   "file": "bin/delonghi_c6_mitm_v453_colors.bin",
+   "size": 1607152,
+   "sha256": "988e567e8aa6bdd443abeec0aef98a5b2661d08c3ac2a33b882318b71184fbf4",
+   "note": "colors"
+  },
+  {
+   "version": "v4.52",
+   "file": "bin/delonghi_c6_mitm_v452_radarfix.bin",
+   "size": 1606352,
+   "sha256": "5ca30287f82a604f28a3894b3f63dfd60d4a15e4f5e4ac35a48b0da619b6f4c8",
+   "note": "radarfix"
+  },
+  {
+   "version": "v4.51",
+   "file": "bin/delonghi_c6_mitm_v451_radar.bin",
+   "size": 1606272,
+   "sha256": "9ba36bb45bd109384366ad59917239b85c851859f48ff11ea27d61acd4c0cc24",
+   "note": "radar"
+  },
+  {
+   "version": "v4.50",
+   "file": "bin/delonghi_c6_mitm_v450_timebased.bin",
+   "size": 1591328,
+   "sha256": "fb29300583098db3d258293ebde2253d53ba152ecb988b3e61d16e18acf08b74",
+   "note": "timebased"
+  },
+  {
+   "version": "v4.49",
+   "file": "bin/delonghi_c6_mitm_v449_wsindep.bin",
+   "size": 1591328,
+   "sha256": "f132dc3e8825fa6b3cf67940375e6d2d05dc36c7ddff5cfdaf22fc0c9abfb072",
+   "note": "wsindep"
+  },
+  {
+   "version": "v4.48",
+   "file": "bin/delonghi_c6_mitm_v448_funcguard.bin",
+   "size": 1591120,
+   "sha256": "63716986942806a1a0c4bd40a2283a1e0be3dabc681197f0e52f9c3cb2a95faf",
+   "note": "funcguard"
+  },
+  {
+   "version": "v4.47",
+   "file": "bin/delonghi_c6_mitm_v447_combined.bin",
+   "size": 1591120,
+   "sha256": "2beb307e65602a83208325ac2cc39ab94651da74c559c5171a80dea32e1033ea",
+   "note": "combined"
+  },
+  {
+   "version": "v4.46",
+   "file": "bin/delonghi_c6_mitm_v446_lenbound.bin",
+   "size": 1591120,
+   "sha256": "f42401be8c7bc340e1df55c5e5247157b36b34bae101ec829711c7882f99fa4f",
+   "note": "lenbound"
+  },
+  {
+   "version": "v4.44b",
+   "file": "bin/delonghi_c6_mitm_v444b_indicate_fixed.bin",
+   "size": 1591136,
+   "sha256": "cf2a95b14309c0b98acc2485ec5f16714303bc73ee9622e76e9b95eba2a47331",
+   "note": "indicate_fixed"
+  },
+  {
+   "version": "v4.44",
+   "file": "bin/delonghi_c6_mitm_v444_indicate.bin",
+   "size": 1592528,
+   "sha256": "e2933db84e00f503afa9c0eac9b783dff5d309f989d2437c8539e0f98dcafad2",
+   "note": "indicate"
+  },
+  {
+   "version": "v4.43",
+   "file": "bin/delonghi_c6_mitm_v443_heartbeat.bin",
+   "size": 1592528,
+   "sha256": "941449e2f6aff39b985f26b1201e9e343acfd74b296ae93ce85071f370f680fc",
+   "note": "heartbeat"
+  },
+  {
+   "version": "v4.42",
+   "file": "bin/delonghi_c6_mitm_v442_cdcoff.bin",
+   "size": 1592224,
+   "sha256": "eb7c3057fc121d2e6115735f79ee5e3873888bbdc050260363de987ce651d69e",
+   "note": "cdcoff"
+  },
+  {
+   "version": "v4.41",
+   "file": "bin/delonghi_c6_mitm_v441_debuglog.bin",
+   "size": 1584576,
+   "sha256": "07d78606b09b13989aa9493853047a027b71233a80e9ebc1df894c4082fe1159",
+   "note": "debuglog"
+  },
+  {
+   "version": "v4.39",
+   "file": "bin/delonghi_c6_mitm_v439_funcidle.bin",
+   "size": 1583072,
+   "sha256": "a80c7188522c4d5e3335accaf7d462b4538afef8d01c73bdf236570d89abd61f",
+   "note": "funcidle"
+  },
+  {
+   "version": "v4.38",
+   "file": "bin/delonghi_c6_mitm_v438_funcidle.bin",
+   "size": 1583072,
+   "sha256": "1b9b3c15c6219c2301f35c232ee4d7cbd4b1821964bbbf42c7d5e0cd5078d6be",
+   "note": "funcidle"
+  },
+  {
+   "version": "v4.37",
+   "file": "bin/delonghi_c6_mitm_v437_clearbrewing.bin",
+   "size": 1583056,
+   "sha256": "05775d344b3b73f5ca14285648685342e9d195aeee3e72ce49b65f4dcc24747b",
+   "note": "clearbrewing"
+  },
+  {
+   "version": "v4.36",
+   "file": "bin/delonghi_c6_mitm_v436_neverduringbrew.bin",
+   "size": 1582960,
+   "sha256": "13c3e616f11f6e01238b0d896006dd0a41014fd783ce1fb2839de64d75e9929e",
+   "note": "neverduringbrew"
+  },
+  {
+   "version": "v4.35",
+   "file": "bin/delonghi_c6_mitm_v435_freshnesspoll.bin",
+   "size": 1582944,
+   "sha256": "9fa7344bb9f29219647e25ee0424c3e43c2eeba6d3caa715aaf57cea75a090ca",
+   "note": "freshnesspoll"
+  },
+  {
+   "version": "v4.34",
+   "file": "bin/delonghi_c6_mitm_v434_hotwaterfunc.bin",
+   "size": 1582944,
+   "sha256": "63f60c4146b89b108c1ee5f531ea3c664d114215f8d3ff64db8de157a25ceff9",
+   "note": "hotwaterfunc"
+  },
+  {
+   "version": "v4.33",
+   "file": "bin/delonghi_c6_mitm_v433_skippollactive.bin",
+   "size": 1582928,
+   "sha256": "3eac77a48886ee658c66ec71fdd78c9ac066a3ede8b26c760785c2c67fc25315",
+   "note": "skippollactive"
+  },
+  {
+   "version": "v4.32",
+   "file": "bin/delonghi_c6_mitm_v432_fixslider.bin",
+   "size": 1582848,
+   "sha256": "c4318275631fb28826df3cbd970d3f75e89886d56af048d86b40f2fc9ed3277e",
+   "note": "fixslider"
+  },
+  {
+   "version": "v4.31",
+   "file": "bin/delonghi_c6_mitm_v431_diag.bin",
+   "size": 1583008,
+   "sha256": "d1685d8131eb2e60ec985298c0d64d4c82696f7d208cddf4b21f668af190f6f3",
+   "note": "diag"
+  },
+  {
+   "version": "v4.30",
+   "file": "bin/delonghi_c6_mitm_v430_gentlepoll.bin",
+   "size": 1582448,
+   "sha256": "ce4918fec91b73ef94f36809eadc4f425e53365c24bbaa2125d2d98a794dfdf4",
+   "note": "gentlepoll"
+  },
+  {
+   "version": "v4.29",
+   "file": "bin/delonghi_c6_mitm_v429_gentlepoll.bin",
+   "size": 1582448,
+   "sha256": "b92a9a180de214962056f7ecd727288e93a63d1fdb301d855539f3d241f8cd70",
+   "note": "gentlepoll"
+  },
+  {
+   "version": "v4.27",
+   "file": "bin/delonghi_c6_mitm_v427_profiles.bin",
+   "size": 1582368,
+   "sha256": "a9230068eec125133a193dcb867412606d7ff999befbc8c5b14d84e52f684bed",
+   "note": "profiles"
+  },
+  {
+   "version": "v4.26",
+   "file": "bin/delonghi_c6_mitm_v426_statefix.bin",
+   "size": 1581264,
+   "sha256": "da15d848f00fb389c874b87cc0fb2288d58fe80a62cc1ed35179d745cf84ea09",
+   "note": "statefix"
+  },
+  {
+   "version": "v4.25",
+   "file": "bin/delonghi_c6_mitm_v425_statefix.bin",
+   "size": 1581168,
+   "sha256": "5096171e17fdba7dee440923d17fa1f3f0da5990d48851de13fcff57d94c51a6",
+   "note": "statefix"
+  },
+  {
+   "version": "v4.24",
+   "file": "bin/delonghi_c6_mitm_v424_statefix.bin",
+   "size": 1581136,
+   "sha256": "2e9d3bc55afd087dab386130389ce83ad37bc100b6f38d80a849f1ee916ace26",
+   "note": "statefix"
+  },
+  {
+   "version": "v4.23",
+   "file": "bin/delonghi_c6_mitm_v423_statefix.bin",
+   "size": 1581136,
+   "sha256": "d57a93f0b0efad3311b6e3c000c3ab600ef414c131b98028ed823b9dc8a99f2e",
+   "note": "statefix"
+  },
+  {
+   "version": "v4.22",
+   "file": "bin/delonghi_c6_mitm_v422_statefix.bin",
+   "size": 1581104,
+   "sha256": "5f76c8eba40a7cdb7407e649e3ddcf55f4ba9dff78a5880d87d25c2209986d82",
+   "note": "statefix"
+  },
+  {
+   "version": "v4.21",
+   "file": "bin/delonghi_c6_mitm_v421_statefix.bin",
+   "size": 1581184,
+   "sha256": "19f2e8a536d124b61c33dddea841c09b4234e6c757ba6f46f3966f921e01435d",
+   "note": "statefix"
+  },
+  {
+   "version": "v4.20",
+   "file": "bin/delonghi_c6_mitm_v420_workflow.bin",
+   "size": 1581152,
+   "sha256": "c4f680cd88ea9036cab0a0a16271cdc21ca50e19bf6a169c59693ddd75660d2b",
+   "note": "workflow"
+  },
+  {
+   "version": "v4.19",
+   "file": "bin/delonghi_c6_mitm_v419_workflow.bin",
+   "size": 1581136,
+   "sha256": "491586c7684f5d88bce8d5ddb1cb456541d13580623307b87b1636ba3ace4492",
+   "note": "workflow"
+  },
+  {
+   "version": "v4.18",
+   "file": "bin/delonghi_c6_mitm_v418_workflow.bin",
+   "size": 1580960,
+   "sha256": "a511fef802018e8a7cd4960debec0b3c45157f8fb4f198f94661b1d2e70a649f",
+   "note": "workflow"
+  },
+  {
+   "version": "v4.17",
+   "file": "bin/delonghi_c6_mitm_v417_workflow.bin",
+   "size": 1579920,
+   "sha256": "00bd9846c8a5274f4107752955df2aef43f12643ccf6e8ecabd9f2e89b8e3863",
+   "note": "workflow"
+  },
+  {
+   "version": "v4.16",
+   "file": "bin/delonghi_c6_mitm_v416_workflow.bin",
+   "size": 1579888,
+   "sha256": "afe06232abef3a8b56f43570262868cc2fdf96918056707505a4268fd681ae38",
+   "note": "workflow"
+  }
+ ]
+}
