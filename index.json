@@ -1,8 +1,15 @@
 {
  "schema": 1,
  "device": "ESP32-C6 DeLonghi PrimaDonna MITM",
- "latest": "v4.66",
+ "latest": "v4.67",
  "firmwares": [
+  {
+   "version": "v4.67",
+   "file": "bin/delonghi_c6_mitm_v467_pbtop.bin",
+   "size": 1853008,
+   "sha256": "c99bb434072cb918e499c73d14b52eac79ad37c6989329586967baef99385e55",
+   "note": "pbtop"
+  },
   {
    "version": "v4.66",
    "file": "bin/delonghi_c6_mitm_v466_presgreen.bin",
