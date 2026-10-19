@@ -1,8 +1,15 @@
 {
  "schema": 1,
  "device": "ESP32-C6 DeLonghi PrimaDonna MITM",
- "latest": "v4.64",
+ "latest": "v4.65",
  "firmwares": [
+  {
+   "version": "v4.65",
+   "file": "bin/delonghi_c6_mitm_v465_ghprogress.bin",
+   "size": 1852992,
+   "sha256": "01464d0a9b8cf37358e93c16e77881b7c38fb79d449ff384bfcba913d382346d",
+   "note": "ghprogress"
+  },
   {
    "version": "v4.64",
    "file": "bin/delonghi_c6_mitm_v464_wifistable.bin",
